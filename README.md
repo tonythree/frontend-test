@@ -30,16 +30,6 @@ Create a **Profile Settings Page** with a dropdown interface that allows users t
 
 Create a profile settings page accessible at `/profile/settings` with the following requirements:
 
-#### User Interface
-
-- **Dropdown Component**: Use Shadcn's dropdown component as the main container
-- **Form Fields**: Include the following fields with proper validation:
-  - **Name** (required, minimum 2 characters)
-  - **Surname** (required, minimum 2 characters)
-  - **Email** (required, valid email format)
-  - **Webpage** (optional, valid URL format if provided, http:// at the beginning is not required.)
-- **Save Button**: Implement with loading states and proper feedback
-
 #### Data Management
 
 - **Mock Data**: Create a `data/user.json` file with sample user data
@@ -55,8 +45,6 @@ Create a profile settings page accessible at `/profile/settings` with the follow
 - Email must have a valid structure.
 - Webpage must be a valid url but http:// or https:// is not required.
 
-````typescript
-
 ### Mock Data Structure
 
 ```json
@@ -69,7 +57,7 @@ Create a profile settings page accessible at `/profile/settings` with the follow
     "webpage": "https://johndoe.dev"
   }
 }
-````
+```
 
 ## ✅ Acceptance Criteria
 
@@ -115,45 +103,6 @@ Create a profile settings page accessible at `/profile/settings` with the follow
 - [React Query Documentation](https://tanstack.com/query/latest)
 - [Zod Validation](https://zod.dev/)
 - [Tailwind CSS](https://tailwindcss.com/docs)
-
-### Recommended Shadcn Components
-
-- `Button`
-- `Form`
-- `Input`
-- `Label`
-- `DropdownMenu`
-- `Card`
-- `Alert`
-
-## 🔍 Evaluation Criteria
-
-### Code Quality (30%)
-
-- Clean, readable, and maintainable code
-- Proper component structure and organization
-- Following React and Next.js best practices
-- Appropriate use of TypeScript (if applicable)
-
-### Technical Implementation (40%)
-
-- Correct implementation of React Query
-- Proper form validation with Zod
-- Effective use of Shadcn/ui components
-- Responsive design implementation
-
-### User Experience (20%)
-
-- Intuitive interface design
-- Proper loading and error states
-- Smooth user interactions
-- Accessibility considerations
-
-### Problem-Solving (10%)
-
-- Ability to implement required features
-- Code organization and structure
-- Handling edge cases
 
 ## 🤝 Support
 
